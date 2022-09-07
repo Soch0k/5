@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <met charset="UTF-8"/>
+    <title>Title</title>
+</head>
+<bod>
+
+    <h1>Message board homepage</h1>
+    <ul>
+        {% for post in object_list %}
+        <li>{{ post }}</li>
+        {% endfor %}
+    </ul>
+</bod>
+</html>
